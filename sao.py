@@ -13,7 +13,7 @@ async def on_ready():
     await client.change_presence(game=discord.Game(name="SAO Coming Soon!"))
 @client.command(pass_context=True)
 async def ip(ctx):
-    embed=discord.Embed(title="SServer Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
+    embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
     await client.say(embed=embed)
  
 client.run(os.getenv('TOKEN'))
