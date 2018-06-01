@@ -15,5 +15,16 @@ async def on_ready():
 async def ip(ctx):
     embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
     await client.say(embed=embed)
- 
+@client.command(pass_context=True)
+async def Ip(ctx):
+    embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
+    await client.say(embed=embed)
+@client.command(pass_context=True)
+async def IP(ctx):
+    embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
+    await client.say(embed=embed) 
+@client.command(pass_context=True)
+async def iP(ctx):
+    embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
+    await client.say(embed=embed)    
 client.run(os.getenv('TOKEN'))
