@@ -10,7 +10,7 @@ client.remove_command('help')
 @client.event
 async def on_ready():
     print("Bot is online and connected to Discord")
-    await client.change_presence(game=discord.Game(name="NetherBoss"))
+    await client.change_presence(game=discord.Game(name="NetherBoss.pocket.pe:55534"))
 @client.command(pass_context=True)
 async def ip(ctx):
     embed=discord.Embed(title="Server Ip!", description="The Ip Is Netherboss.pocket.pe And The Port Is 55534", color=0xFCFF0F)
