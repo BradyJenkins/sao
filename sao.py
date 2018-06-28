@@ -10,21 +10,21 @@ client.remove_command('help')
 @client.event
 async def on_ready():
     print("Bot is online and connected to Discord")
-    await client.change_presence(game=discord.Game(name="SAO Coming Soon!"))
+    await client.change_presence(game=discord.Game(name="NetherBoss"))
 @client.command(pass_context=True)
 async def ip(ctx):
-    embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
+    embed=discord.Embed(title="Server Ip!", description="The Ip Is Netherboss.pocket.pe And The Port Is 55534", color=0xFCFF0F)
     await client.say(embed=embed)
 @client.command(pass_context=True)
 async def Ip(ctx):
-    embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
+    embed=discord.Embed(title="Server Ip!", description="The Ip Is Netherboss.pocket.pe And The Port Is 55534", color=0xFCFF0F)
     await client.say(embed=embed)
 @client.command(pass_context=True)
 async def IP(ctx):
-    embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
+    embed=discord.Embed(title="Server Ip!", description="The Ip Is Netherboss.pocket.pe And The Port Is 55534", color=0xFCFF0F)
     await client.say(embed=embed) 
 @client.command(pass_context=True)
 async def iP(ctx):
-    embed=discord.Embed(title="Server Ip!", description="SAO PE Coming Soon!", color=0xFCFF0F)
+    embed=discord.Embed(title="Server Ip!", description="The Ip Is Netherboss.pocket.pe And The Port Is 55534", color=0xFCFF0F)
     await client.say(embed=embed)    
 client.run(os.getenv('TOKEN'))
